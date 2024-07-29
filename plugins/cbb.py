@@ -13,6 +13,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text =f"<b>★ ᴏᴡɴᴇʀ : <a href='t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a>\n★ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/Straw_Hat_Bots'>Cʟɪᴄᴋ Hᴇʀᴇ</a>\n★ ᴏᴜʀ ᴄᴏᴍᴍᴜɴɪᴛʏ : <a href='https://t.me/+iEiMt9WevHwzNzM1'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ</a>\n★ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='https://t.me/urr_sanjii_robot'>𝐒ᴀɴJɪ 𝐒αᴍᴀ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
+            [
                     [
                         InlineKeyboardButton("🔙 ʙᴀᴄᴋ ", callback_data = "home"),
                         InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
