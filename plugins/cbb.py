@@ -32,7 +32,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             text=f"Kᴏɴɴɪᴄʜɪᴡᴀ!! {mention}⚡\n\n<b>ɪ ᴀᴍ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ.\n\n𝐃ᴇᴠᴇʟᴏᴘᴇᴅ 𝐁ʏ : <a href='https://t.me/Straw_Hat_Bots'>𝐒ᴛʀᴀᴡ 𝐇ᴀᴛ ꭙ 𝐁ᴏᴛs</a></b>",
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup(
-                [ [InlineKeyboardButton("📌 Mᴀɪɴ Cʜᴀɴɴᴇʟ ‼️",url = "https://t.me/Aniverse_Central")],
+                [ [InlineKeyboardButton("📌 Mᴀɪɴ Cʜᴀɴɴᴇʟ ‼️",url = "https://t.me/The_Hentai_Society")],
                 [
                     InlineKeyboardButton("🤖 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data = "about"),
                     InlineKeyboardButton("🚫 ᴄʟᴏsᴇ ", callback_data = "close")
@@ -52,7 +52,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 text=f"<b>sᴏʀʀʏ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ʙᴏᴛ</b>",
                 disable_web_page_preview=True,
                 reply_markup = InlineKeyboardMarkup(
-                    [ [InlineKeyboardButton("📌 Mᴀɪɴ Cʜᴀɴɴᴇʟ ‼️",url = "https://t.me/Aniverse_Central")],
+                    [ [InlineKeyboardButton("📌 Mᴀɪɴ Cʜᴀɴɴᴇʟ ‼️",url = "https://t.me/The_Hentai_Society")],
                         [ InlineKeyboardButton("🔙 ʙᴀᴄᴋ", callback_data = "home"),
                          InlineKeyboardButton( "🚫 ᴄʟᴏsᴇ", callback_data = "close")]
                     ]
